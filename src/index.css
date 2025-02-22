@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #181818;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+    width: 6px; /* Make scrollbar thin */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0f0f0f; /* Match sidebar background to remove white border */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #4a4a4a; /* Grey scrollbar */
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6a6a6a; /* Slightly lighter grey on hover */
+  }  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
